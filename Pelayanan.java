@@ -3,18 +3,13 @@ package RadiologiFinal;
 import java.util.Random;
 import java.util.Scanner;
 
-/**
- *
- * @author ASUS
- */
+
 public class Pelayanan extends Identitas{
     static Scanner sc = new Scanner(System.in);
     static boolean all = true;
     static int pilihan, kelas, pilih, nobyr;
     static double hargaKamar, harga = 0;
     static String kelasKamar, pr, daftar = "";
-
-
 
     static double biaya(double harga, double hargaKamar){
 
